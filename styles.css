@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    }
+
+    body{
+    background-color: #fff3e6;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    
+
+    
+
+    .navitems{ 
+        position: relative;
+        top : 6px;
+        font-weight: bold;
+        text-decoration: none;
+        
+    }
+
+    
+    .container{
+        max-width: 1100px;
+        margin: 0 auto;
+        
+    
+    }
+
+    
+
+    .logo {
+    position: relative;
+    height: 60px;
+    width: 200px;
+    cursor: pointer;
+    
+    
+    }
+    
+    .menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    
+    
+    
+    }
+    
+    .menu .navbar ul li {
+    position: relative;
+    float: left;
+    right: 250px;
+    
+    }
+    
+    .menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #000;
+    display: block;
+    }
+    
+    .menu .navbar ul li a:hover{
+    color: #EFB810;
+    
+    
+    }
+    
+    #menu{
+        display: none;
+    }
+    
+    .menu-icono{
+    width: 25px;
+    }
+    
+    .menu label {
+    cursor: pointer;
+    display: none;
+    }
+    
+    
+
+    
+    .about-me img {
+        border: 4px solid #000; 
+        width: 150px;
+        
+    }
+    
+    .about-me p {
+        font-size: 20px;
+        color: #555;
+    }
+    
+
+
+    
+    .text-Leermas {
+        color: #000;
+    }
+
+
+    .hero{
+    margin-top: 100px;
+    position: relative;
+    background-image: url(./hero.jpg); 
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    
+    }
+    .cont-banner { 
+        
+        height: 100%;
+        
+    }
+    
+
+
+
+    
+    .iconos { 
+        position: relative;
+        cursor:pointer;
+    }
+
+    h1 { 
+        position: relative;
+        top:150px;
+        font-size: 60px;
+        color: #fff3e6;
+        
+    }
+
+.h1cont { 
+    max-width: 450px;
+    position: relative;
+    
+    
+    
+}
+
+.btn1 { 
+    position: absolute;
+    top: 450px;
+    border: solid 1px #000;
+    color: white;
+    background-color: #000;
+}
+
+.text-cont {
+    max-width: 730px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    top: 100px;
+    height: 300px;
+    color: #555;
+}
+
+.link-Learn {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+}
+
+h2 { 
+    margin: 20px auto;
+    text-align: center;
+    margin-top: 100px;
+}
+a { 
+    text-decoration: none;
+}
+
+.card-background { 
+    background-color: #e6e0d4;
+}
+
+.card-cont{ 
+    margin: 0 auto;
+    flex-flow: row wrap;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.card1 { 
+    width: 300px;
+    height: 345px;
+    margin-top: 55px;
+    
+}
+
+.card2 { 
+    width: 300px;
+    height: 345px;
+    margin-top: 55px;
+}
+.card3 { 
+    width: 300px;
+    height: 345px;
+    margin-top: 55px;
+}
+
+.card-img { 
+    background-image: url(ceramica.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}       
+
+.card-img2 { 
+    background-image: url(ceramica2.png);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}       
+
+.card-img3 { 
+    background-image: url(ceramica3.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}   
+
+.card-img4 { 
+    background-image: url(ceramica\ 4.jpeg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}       
+
+.card-img5 { 
+    background-image: url(ceramica\ 5.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}       
+
+.card-img6 { 
+    background-image: url(ceramica\ 6.jpeg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}       
+
+.img-text { 
+    text-align: center;
+
+}
+
+
+
+
+
+.msg {
+    display: none;
+    margin-top: 20px;
+    color: green;
+    text-align: center;
+}
+
+.footer {
+    height: 200px;
+    background-color: #e6e0d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.logo-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    color: #EFB810;
+}
+
+.social-icons img {
+    width: 25px;
+    margin: 0 10px;
+    margin-top: 50px;
+}
+
+.item-footer { 
+    height: 100px;
+    width: 2px;
+    background-color: black;
+    position: absolute;
+    left: 850px;
+}
+
+    /*MEDIA QUERIES*/
+
+@media(max-width:900px) {
+    
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    
+    }
+    .h1cont{
+        margin: 0 auto;
+        f
+    }
+    .background {
+        padding: 40px 0;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #1212125e;
+        display: none;
+        
+    }
+
+    
+    .menu .navbar ul li {
+        width: 100%;
+        left: 1px;
+        
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .iconos {
+        display: none;
+    }
+    
+    
+}
+
+
+@media(max-width:430px){
+    .btn1{ display: none;}
+
+
+}
+
+
+@media (max-width: 768px) {
+    .footer {
+        height: auto; 
+    }
+
+    .social-icons {
+        margin-top: 20px;
+    }
+
+    .footer-links, .logo-footer, .social-icons {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
